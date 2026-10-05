@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elshaddia Hospital</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #f4f9ff;
+            color: #183b56;
+        }
+
+        .programmer {
+            background: #012a4a;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            font-size: 14px;
+        }
+
+        header {
+            background: linear-gradient(135deg, #0077b6, #00b4d8);
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 30px;
+        }
+
+        nav {
+            margin-top: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 8px;
+            font-weight: bold;
+        }
+
+        .hero {
+            background: linear-gradient(135deg, #00b4d8, #48cae4, #90e0ef);
+            color: white;
+            text-align: center;
+            padding: 70px 20px;
+        }
+
+        .hero h2 {
+            font-size: 40px;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            margin-bottom: 25px;
+        }
+
+        .button {
+            display: inline-block;
+            background: white;
+            color: #0077b6;
+            padding: 14px 25px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .section {
+            padding: 45px 20px;
+            text-align: center;
+        }
+
+        .section h2 {
+            color: #0077b6;
+            margin-bottom: 30px;
+            font-size: 30px;
+        }
+
+        .cards {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background: white;
+            width: 280px;
+            padding: 25px;
+            border-radius: 18px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.10);
+        }
+
+        .icon {
+            font-size: 45px;
+            margin-bottom: 15px;
+        }
+
+        .card h3 {
+            color: #0077b6;
+            margin-bottom: 10px;
+        }
+
+        .about {
+            background: white;
+            padding: 50px 25px;
+            text-align: center;
+        }
+
+        .about p {
+            max-width: 750px;
+            margin: auto;
+            line-height: 1.7;
+            font-size: 17px;
+        }
+
+        .contact {
+            background: linear-gradient(135deg, #0077b6, #023e8a);
+            color: white;
+            text-align: center;
+            padding: 45px 20px;
+        }
+
+        .contact p {
+            margin: 10px;
+        }
+
+        footer {
+            background: #012a4a;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        @media (max-width: 600px) {
+            .hero h2 {
+                font-size: 30px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="programmer">
+    💻 Website Programmer: <strong>Nwankwo Divine</strong>
+</div>
+
+<header>
+    <h1>🏥 Elshaddia Hospital</h1>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#services">Services</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h2>Welcome to Elshaddia Hospital</h2>
+    <p>Quality Healthcare • Compassion • Excellence</p>
+
+    <a href="#services" class="button">
+        Explore Our Services
+    </a>
+</section>
+
+<section class="section" id="services">
+
+    <h2>Our Medical Services</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <div class="icon">👨‍⚕️</div>
+            <h3>Medical Consultation</h3>
+            <p>Professional medical consultation and patient care.</p>
+        </div>
+
+        <div class="card">
+            <div class="icon">🩺</div>
+            <h3>General Medicine</h3>
+            <p>Comprehensive diagnosis and treatment for patients.</p>
+        </div>
+
+        <div class="card">
+            <div class="icon">👶</div>
+            <h3>Pediatrics</h3>
+            <p>Specialized healthcare services for children.</p>
+        </div>
+
+        <div class="card">
+            <div class="icon">💊</div>
+            <h3>Pharmacy</h3>
+            <p>Safe and reliable access to prescribed medications.</p>
+        </div>
+
+        <div class="card">
+            <div class="icon">🧪</div>
+            <h3>Laboratory</h3>
+            <p>Medical laboratory testing and diagnostic services.</p>
+        </div>
+
+        <div class="card">
+            <div class="icon">🚑</div>
+            <h3>Emergency Care</h3>
+            <p>Prompt medical attention for urgent situations.</p>
+        </div>
+
+    </div>
+</section>
+
+<section class="about" id="about">
+
+    <h2>About Elshaddia Hospital</h2>
+
+    <p>
+        Elshaddia Hospital is dedicated to providing quality healthcare
+        services in a safe, caring and professional environment.
+        Our goal is to put patients first and provide excellent medical care.
+    </p>
+
+</section>
+
+<section class="contact" id="contact">
+
+    <h2>Contact Us</h2>
+
+    <p>📞 Phone: 08022243793</p>
+    <p>📧 Email: info@elshaddiahospital.com</p>
+    <p>📍 Location: Lagos, Nigeria</p>
+
+</section>
+
+<footer>
+
+    <p>© 2026 Elshaddia Hospital. All Rights Reserved.</p>
+
+</footer>
+
+</body>
+</html>
